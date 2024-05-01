@@ -16,28 +16,23 @@ This script is intended for use in scenarios where users need to:
 
 ## Prerequisites
 Before running the script, ensure you have Python installed on your system along with the following packages:
+
 - `openpyxl`: For reading Excel files.
 - `csv`: For writing output data to CSV format.
+  
+- Place all your .xlsx files in a single directory.
+- Modify the script to point to your directory by changing the directory_path variable to the path of your directory containing the Excel files.
 
-You can install the required package using pip:
+## You can install the required package using pip:
 
 ```bash
 pip install openpyxl
 
-## Installation
-To use this script:
-
-Clone this repository or download the script directly.
-Navigate to the script's directory in your terminal.
-
-## Usage
-
-1. Place all your .xlsx files in a single directory.
-2. Modify the script to point to your directory by changing the directory_path variable to the path of your directory containing the Excel files:
-
+Modify your working directory where your excel files are stored
 ```bash
 directory_path = 'path_to_your_directory'
-3. Run the script using Python:
 
 ```bash
 python extract_creators.py
+
+
