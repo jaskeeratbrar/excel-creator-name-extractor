@@ -29,6 +29,7 @@ Before running the script, ensure you have Python installed on your system along
 pip install openpyxl
 
 Modify your working directory where your excel files are stored
+
 ```bash
 directory_path = 'path_to_your_directory'
 
